@@ -1,0 +1,13 @@
+body{background: url("background.jpg");}
+button:hover{
+    background-color: dodgerblue;
+}
+canvas{
+    animation-name: name;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes name{
+    from{box-shadow: 1px 1px 100px dodgerblue;}
+    to{box-shadow: 1px 1px 38px lightgreen;}
+}
